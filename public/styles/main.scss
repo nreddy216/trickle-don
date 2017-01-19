@@ -1,12 +1,15 @@
-.flag
-  &.one
-    float: left
-   &.two
-    float: right
-.center
-  margin: 0 auto
-  display: flex
-  .podium
-    bottom: 0px
-  .torso
-    bottom: 30px
+// .flag
+//   &.one
+//     float: left
+//    &.two
+//     float: right
+// .center
+//   margin: 0 auto
+//   display: flex
+//   .podium
+//     bottom: 0px
+//   .torso
+//     bottom: 30px
+body {
+  background-color: blue;
+}
