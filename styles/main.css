@@ -1,5 +1,5 @@
 body {
-  background-color: #273058;
+  background-color: #F3D332;
 }
 
 .scene {
@@ -7,15 +7,18 @@ body {
   justify-content: space-around;
   background-color: #3B6AA0;
   height: 90vh;
+  overflow: hidden;
+  border-radius: 10%;
 }
 
 .flag {
-  width: 15%;
+  width: 5em;
   margin-top: 2em;
 }
 
 .center {
   width: 20%;
+  margin-top: 10em;
 }
 
 .face {
@@ -34,4 +37,25 @@ body {
 
 .drop {
   width: 10px;
+}
+
+.drop-zone{
+  margin-top: 4em;
+}
+
+.shower {
+  width: 14em;
+  position: absolute;
+  top: 0;
+  margin-left: -7em;
+  left: 50%;
+}
+
+.stage {
+  background-color: #273058;
+  height: 8em;
+  width: 100em;
+  margin-left: -50em;
+  margin-top: -1em;
+  border-radius: 0 0 10% 10%;
 }
