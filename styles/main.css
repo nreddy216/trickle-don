@@ -1,0 +1,37 @@
+body {
+  background-color: #273058;
+}
+
+.scene {
+  display: flex;
+  justify-content: space-around;
+  background-color: #3B6AA0;
+  height: 90vh;
+}
+
+.flag {
+  width: 15%;
+  margin-top: 2em;
+}
+
+.center {
+  width: 20%;
+}
+
+.face {
+  padding: 2em;
+  padding-bottom: 0;
+  margin-bottom: -1em;
+}
+
+.face img {
+  width: 100%;
+}
+
+.podium {
+  margin-top: -1em;
+}
+
+.drop {
+  width: 10px;
+}
