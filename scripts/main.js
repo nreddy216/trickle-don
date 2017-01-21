@@ -1,6 +1,9 @@
 $( document ).ready(function(){
 
-  console.log("Don't look at my console logs");
+  console.log("Pls don't look at my bad code");
+
+  var $face = $('.face img');
+
 
   function goldenShower(timeToDrip){
     var $drops = $(),
@@ -26,13 +29,16 @@ $( document ).ready(function(){
         'opacity' : "0",
     }, Math.random() + 2000, function(){
         $(this).remove();
+        $face.attr('src', './assets/faces/face_smug.png');
     });
+
   }
 
   var $showerhead = $('.showerhead');
 
   $showerhead.on('click', function(){
     goldenShower();
+    $face.attr('src', './assets/faces/face_ouch.png');
   });
 
 });
