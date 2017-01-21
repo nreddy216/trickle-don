@@ -25,7 +25,7 @@ $( document ).ready(function(){
     $('.drop-zone').prepend($drops);
 
     $drops.animate({
-        'margin-top': "100%",
+        'margin-top': "800px",
         'opacity' : "0",
     }, Math.random() + 2000, function(){
         $(this).remove();
