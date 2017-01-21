@@ -2,6 +2,15 @@ body {
   background-color: #7a7d84;
 }
 
+/*.hidden-grey-bar {
+  background-color: #7a7d84;
+  position: absolute;
+  top: 0;
+  z-index: -2;
+  height: 5em;
+  width: 100%;
+}*/
+
 .scene {
   display: flex;
   justify-content: space-around;
@@ -64,6 +73,8 @@ body {
 
 .drop {
   width: 10px;
+  position: absolute;
+  z-index: -1;
 }
 
 .drop-zone{
@@ -76,6 +87,7 @@ body {
   top: 0;
   margin-left: -7em;
   left: 50%;
+  z-index: 2;
 }
 
 .stage {

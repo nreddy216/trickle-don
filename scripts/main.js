@@ -16,7 +16,7 @@ $( document ).ready(function(){
       // Update css
       $drop.css({
         'margin-left': (Math.random() * $('.shower').width()) + 'px',
-        'margin-top': (- Math.random() * $('.shower').height()) + 'px'
+        'margin-top': (- Math.random() * $('.shower').height() + $('.shower').height()/2.5) + 'px'
       });
       // add this drop to the set of drops
       $drops = $drops.add($drop);
@@ -25,7 +25,7 @@ $( document ).ready(function(){
     $('.drop-zone').prepend($drops);
 
     $drops.animate({
-        'margin-top': "500px",
+        'margin-top': "400px",
         'opacity' : "0",
     }, Math.random() + 2000, function(){
         $(this).remove();
