@@ -46,16 +46,16 @@ body {
 }
 
 .face {
-  margin-right: 33%;
+  margin-right: 50%;
 }
 
 .face img {
-  width: 8em;
+  width: 12em;
   position: absolute;
 }
 
 .torso {
-  margin-top: 9em;
+  margin-top: 11em;
 }
 
 .podium {
