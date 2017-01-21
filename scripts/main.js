@@ -1,5 +1,7 @@
 $( document ).ready(function(){
 
+  console.log("Don't look at my console logs");
+
   function goldenShower(timeToDrip){
     var $drops = $(),
         quantity = 15;
