@@ -15,21 +15,47 @@ body {
 }
 
 .center {
+  display: flex;
+  justify-content: center;
+  align-self: flex-end;
   margin-top: 10em;
   width: 25em;
 }
 
 .flag {
-  width: 15em;
+  position: absolute;
+  min-width: 15em;
   margin-top: 2em;
+  z-index: -1;
+}
+
+.flag.one {
+  left: 2em;
+
+}
+
+.flag.two {
+  right: 2em;
+}
+
+.donald {
+  width: 25em;
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
 }
 
 .face {
-  text-align: center;
+  margin-right: 33%;
 }
 
 .face img {
   width: 8em;
+  position: absolute;
+}
+
+.torso {
+  margin-top: 9em;
 }
 
 .podium {
